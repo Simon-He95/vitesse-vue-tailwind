@@ -1,0 +1,40 @@
+{
+  "name": "vitesse",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@7.33.7",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --port 3333 --open",
+    "lint": "eslint . --cache",
+    "lint:fix": "pnpm run lint --fix",
+    "typecheck": "vue-tsc --noEmit",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.13.0",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.22.2",
+    "@types/node": "^18.19.39",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "jsdom": "^19.0.0",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^4.9.5",
+    "unplugin-auto-import": "^0.18.0",
+    "unplugin-vue-components": "^0.27.2",
+    "vite": "^4.5.3",
+    "vite-plugin-pages": "^0.32.3",
+    "vitest": "^0.7.13",
+    "vue-tsc": "^1.8.27"
+  },
+  "stackblitz": {
+    "startCommand": "pnpm --filter='./playground' run dev"
+  }
+}
