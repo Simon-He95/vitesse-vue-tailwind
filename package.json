@@ -13,6 +13,9 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@egoist/tailwindcss-icons": "^1.8.1",
+    "@iconify-json/carbon": "^1.1.36",
+    "@iconify/tailwind": "^1.1.1",
     "@vueuse/core": "^9.13.0",
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"
